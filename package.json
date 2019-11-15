@@ -9,8 +9,7 @@
     "csv": "./export_csv.sh",
     "json": "./export_json.sh",
     "format": "node lib/build.js",
-    "build": "npm run csv && npm run json && npm run format",
-    "precommit": "npm test"
+    "build": "npm run csv && npm run json && npm run format"
   },
   "repository": {
     "type": "git",
